@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulated Data Fetch</title>
+    <link rel="stylesheet" href="fetch.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Simulated <span>Data Fetch</span></h1>
+        </header>
+
+        <div class="controls">
+            <button id="fetchBtn" onclick="handleFetch()">Fetch Users</button>
+            <button id="failBtn" onclick="handleFail()">Simulate Error</button>
+            <button id="resetBtn" onclick="handleReset()">Reset</button>
+        </div>
+
+        <div id="status" class="status hidden"></div>
+
+        <div id="output" class="output hidden">
+            <div class="output-header">
+                <span class="output-label">Response</span>
+                <span id="timeTaken" class="time-taken"></span>
+            </div>
+            <ul id="userList" class="user-list"></ul>
+        </div>
+        <script src="fetch.js"></script>
+</body>
+
+</html>
