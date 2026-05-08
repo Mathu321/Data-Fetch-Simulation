@@ -3,7 +3,6 @@
 A beginner JavaScript exercise demonstrating how to simulate asynchronous data fetching using `setTimeout` wrapped in Promises.
 
 ---
-
 ## Files
 
 | File | Purpose |
